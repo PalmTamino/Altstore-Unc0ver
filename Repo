@@ -1,0 +1,42 @@
+{
+  "name": "unc0ver",
+  "identifier": "science.xnu.undecimus",
+  "apps": [
+    {
+      "name": "unc0ver",
+      "bundleIdentifier": "science.xnu.undecimus",
+      "developerName": "pwn20wnd",
+      "subtitle": "Das fortschrittlichste Jailbreak-Tool. iOS 11.0 - 14.3",
+      "version": "6.2.0",
+      "versionDate": "2021-07-17T12:00:00-00:00",
+      "versionDescription": "Wesentliche Stabilitäts- und Zuverlässigkeitsverbesserungen bei der Unterstützung von iOS 14",
+      "downloadURL": "https://unc0ver.dev/downloads/6.2.0/15e18e455ca3971433261443a42355ee883a2092/unc0ver_Release_6.2.0.ipa",
+      "localizedDescription": "unc0ver ist ein Jailbreak, was bedeutet, dass Sie die Freiheit haben, mit Ihrem iOS-Gerät zu tun, was Sie möchten. Unc0ver ermöglicht es Ihnen, zu ändern, was Sie wollen und innerhalb Ihres Zuständigkeitsbereichs zu arbeiten",
+      "iconURL": "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/unc0vericon.jpg",
+      "tintColor": "#8c8c8c",
+      "size": 345885912,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/screen1.png",
+        
+        "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/screen2.PNG",
+
+        "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/screen3.PNG"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "unc0ver",
+      "identifier": "unc0ver-news",
+      "caption": "Das fortschrittlichste Jailbreak-Tool. iOS 11.0 - 14.3",
+      "tintColor": "#8c8c8c",
+      "imageURL": "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/background.jpg",
+      "appID": "science.xnu.undecimus",
+      "date": "2021-07-17",
+      "notify": true
+    }
+  ],
+  "userInfo": {
+
+  }
+}
