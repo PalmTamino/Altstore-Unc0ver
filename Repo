@@ -1,387 +1,42 @@
 {
-	"name": "Tamino's AltStore",
-	"identifier": "com.burritosoftware.AltStore",
-	"sourceURL": "https://burritosoftware.github.io/altstore/channels/burritosource.json",
-	"apps": [{
-			"name": "iNDS",
-			"bundleIdentifier": "net.nerd.iNDS-true",
-			"developerName": "iNDS Team",
-			"subtitle": "Revival of the Nintendo DS emulator for iOS.",
-			"version": "1.10.8",
-			"versionDate": "2021-05-1",
-			"versionDescription": "- Fixed cover art system (#203). Thanks, @unlmtd. - Fixed compilation errors (#191). Thanks, @jdkula.",
-			"downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.7/iNDS.ipa",
-			"localizedDescription": "iNDS is a derivation of the previous Nintendo DS apps for iOS, nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time, so that pull requests and issues do not sit untouched.\n\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
-			"iconURL": "https://inds.nerd.net/Resources/required/AppIcon256.png",
-			"tintColor": "FC2125",
-			"size": 8160000,
-			"permissions": [{
-				"type": "photos",
-				"usageDescription": "Allows iNDS to use images from your Photo Library as game artwork."
-			}],
-			"screenshotURLs": [
-				"https://static.appdb.to/images/cydia-1900000021-iphone-0.png",
-				"https://static.appdb.to/images/cydia-1900000021-iphone-1.png",
-				"https://static.appdb.to/images/cydia-1900000021-iphone-2.png"
-			]
-        },
-		{
-			"name": "Provenance",
-			"bundleIdentifier": "org.provenance-emu.provenance",
-			"developerName": "Provenance Team",
-			"subtitle": "An iOS Frontend for Multiple Emulators",
-			"version": "2.0",
-			"versionDate": "2021-08-03T12:00:00-00:00",
-			"versionDescription": "Initial AltStore release! See changelog here: https://github.com/Provenance-Emu/Provenance/releases/tag/2.0.0",
-			"downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/2.0.0/Provenance-iOS.ipa",
-			"localizedDescription": "Relive the golden age of gaming.\n\nProvenance brings together a collection of classic gaming console emulators into a single app for your iPhone or iPad, with support for Apple Game Controllers for that authentic experience.",
-			"iconURL": "https://pbs.twimg.com/profile_images/980683701628497920/Iv0DTyQA_400x400.jpg",
-			"tintColor": "162434",
-			"size": 23184304,
-			"permissions": [{
-				"type": "photos",
-				"usageDescription": "Allows Provenance to use images from your Photo Library as game artwork."
-			}],
-			"screenshotURLs": [
-				"https://33.media.tumblr.com/274a3178850133f7db0ef530a69ec26d/tumblr_nhqpnuOa2o1t0wlalo3_1280.jpg",
-				"https://38.media.tumblr.com/d964d6d809d06c55f23c4ef65eee08ce/tumblr_nhqpnuOa2o1t0wlalo2_1280.jpg",
-				"https://41.media.tumblr.com/c4e7f2d9363db90f89f91abc327033f0/tumblr_neu1ewLoQU1t0wlalo2_400.jpg"
-			]
-		},
-		{
-			"name": "UTM",
-			"bundleIdentifier": "com.utmapp.UTM",
-			"developerName": "osy86",
-			"subtitle": "Run virtual machines on iOS",
-			"version": "2.2.0",
-			"versionDate": "2020-02-19",
-			"versionDescription": "Please visit https://getutm.app/install for more details.",
-			"downloadURL": "https://github.com/utmapp/UTM/releases/download/v2.2.0/UTM.ipa",
-			"localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad.\n\nFeatures:\n30+ processors supported including x86_64, ARM64, and RISC-V thanks to qemu as a backend\nFast native graphics through para-virtualization thanks to SPICE\nJIT based acceleration using qemu TCG\nFrontend designed from scratch for iOS11+ using the latest and greatest APIs\nCreate, manage, run VMs directly from your device\nNo jailbreak required!",
-			"iconURL": "https://getutm.app/assets/appicon.png",
-			"tintColor": "1E47D0",
-			"size": 124967347,
-			"screenshotURLs": [
-				"https://static.appdb.to/images/cydia-1900000653-iphone-1.png",
-				"https://static.appdb.to/images/cydia-1900000653-iphone-0.png"
-			]
-		},
-		{
-			"name": "Thermometer",
-			"bundleIdentifier": "com.growpixel.blackbox.store.Thermometer",
-			"developerName": "Ryan McLeod",
-			"subtitle": "A very crude iPhone thermometer",
-			"version": "1.0",
-			"versionDate": "2020-02-06",
-			"versionDescription": "An almost identical copy of the app but inside the Today widget.",
-			"downloadURL": "https://github.com/burritosoftware/Thermometer/raw/master/Thermometer.ipa",
-			"localizedDescription": "Because I'm tired of wondering if my animations are slow or if my device is just really hot.\n\nThe states:\n🥒 Your phone is cooler than you are. Burn.\n🔥 Your device is warm but performance is probably not being throttled.\n🔥🔥 Your device is hot and performance is probably throttled.\n🔥🔥🔥 Your device hurts to hold in places and performance is definitely being throttled.\n\nThis version of Thermometer was compiled by Burrito, and based off Ryan's thermometer at https://github.com/warpling/Thermometer",
-			"iconURL": "https://raw.githubusercontent.com/warpling/Thermometer/master/iOS/AppIcon.appiconset/Thermometer-83.5%402x.png",
-			"tintColor": "2F2F2F",
-			"size": 377245,
-			"screenshotURLs": [
-				"https://cdn.discordapp.com/attachments/375175618079227914/681270931758383177/image0.png"
-			]
-		},
-		{
-			"name": "Flappy Bird",
-			"bundleIdentifier": "org.brandonplank.flappybird15",
-			"developerName": "Brandon Plank",
-			"subtitle": "A 1:1 Flappy Bird Clone written 100% in swift",
-			"version": "3.9",
-			"versionDate": "2021-06-08",
-			"versionDescription": "+ Added official support to iOS 15 - Removed support for iOS 10 - 12 (Did not have any choice, sorry :( )",
-			"downloadURL": "https://github.com/BrandonPlank/flappybird/releases/download/3.9/org.brandonplank.flappybird.ipa",
-			"localizedDescription": "Flappy Bird is an arcade-style game in which the player controls the bird Faby, which moves persistently to the right. The player is tasked with navigating Faby through pairs of pipes that have equally sized gaps placed at random heights. Faby automatically descends and only ascends when the player taps the touchscreen. Each successful pass through a pair of pipes awards the player one point. Colliding with a pipe or the ground ends the gameplay. During the game over screen, the player is awarded a bronze medal if they reached ten or more points, a silver medal from twenty points, a gold medal from thirty points, and a platinum medal from forty points.",
-			"iconURL": "https://content.instructables.com/ORIG/FT4/13FG/JS5CDMMN/FT413FGJS5CDMMN.png?auto=webp&frame=1&fit=bounds&md=fd8974071eb56275439103253ddcced6",
-			"tintColor": "eeff00",
-			"size": 377245,
-			"screenshotURLs": [
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/FlappyBirdMain1.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/FlappyBirdMain4.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/FlappyBirdMain3.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/FlappyBirdMain2.png"
-			]
-		},
-		{
-            "name": "Channels",
-            "bundleIdentifier": "com.channelsapp.channels",
-            "developerName": "@afsimsir",
-            "subtitle": "Watch live TV & events for free with Channels",
-            "version": "1.9.0",
-            "versionDate": "2021-03-24T00:00:00-00:00",
-            "versionDescription": "• Bugfixes",
-            "downloadURL": "https://firebasestorage.googleapis.com/v0/b/channels-3c68e.appspot.com/o/channels19.ipa?alt=media&token=012e1ad4-89b7-4843-b3be-94631159acf3",
-            "localizedDescription": "Channels allows you to watch live TV & sport events for free on your iPhone, iPad or iPod Touch.\nFeatures you will love:\n\n• Daily live events for NBA, NFL, Soccer, UFC and more\n• Categorized live TV channels\n• Daily updated Movies & TV Shows\n\n Follow @channelstheapp on Twitter for more information.",
-            "iconURL": "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/appicon.png",
-            "tintColor": "0093E9",
-            "size": 22000000,
-            "screenshotURLs": [
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen1.png",
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen2.png",
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen3.png",
-                "https://raw.githubusercontent.com/FurkanSimsir/channels.github.io/master/screen4.png"
-			]
-		},
-		{
-			"name": "UYou++",
-			"bundleIdentifier": "com.google.ios.youtube",
-			"developerName": "miro92",
-			"subtitle": "uYou+ for YouTube",
-			"version": "16.31.4",
-			"versionDate": "2021-08-09",
-			"versionDescription": "Changelog:- Update YouTube base to 16.31.4 - Update uYou to 1.3 - Add back YTClassicVideoQualitySelector *For full changelog, visit https://miro92.com/repo/depictions/changelog.html?p=com.miro.uyou",
-			"downloadURL": "https://github.com/ytjailed/ytjailed.github.io/releases/download/0.1/uYou_1-3_16-31-4.ipa",
-			"localizedDescription": "uYou+ comes with original features we all like and love while injecting additional tweaks for extra functionality.\n\nList of injected tweaks:\nuYou v1.1\nYTStockShare v1.3\nYouAreThere v1.0.1\nYouPiP v1.5.7\nYTClassicVideoQualitySelector v1.0.1\nYTSystemAppearance v1.0.0\nYTUHD v1.2.0\nYTNoHoverCards v0.0.3", "name": "uYou+",
-			"iconURL": "https://raw.githubusercontent.com/ytjailed/ytjailed.github.io/main/resources/uYou/icon.png",
-			"tintColor": "1E47D0",
-			"size": 112171086,
-			"screenshotURLs": [
-				"https://miro92.com/repo/depictions/com.miro.uyou/screenshots/1.jpg",
-				"https://miro92.com/repo/depictions/com.miro.uyou/screenshots/2.jpg",
-				"https://miro92.com/repo/depictions/com.miro.uyou/screenshots/3.jpg",
-				"https://miro92.com/repo/depictions/com.miro.uyou/screenshots/4.jpg",
-				"https://miro92.com/repo/depictions/com.miro.uyou/screenshots/5.jpg"
-			]
-		},
-		{
-			"name": "Instagram Rocket",
-			"bundleIdentifier": "com.burbn.instagram",
-			"developerName": "Majd Alfhaily",
-			"subtitle": "Rocket for Instagram",
-			"version": "145.0",
-			"versionDate": "2020-12-21",
-			"versionDescription": "Bug fixes and improvements.",
-			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Instagram-Rocket.ipa",
-			"localizedDescription": "The Much-Awaited App\n\nRocket for Instagram could be categorized as an Instagram user\u2019s dream tweak, because it\u2019s going to let you do things that the photo and video sharing social network probably doesn\u2019t want you to do, but nevertheless they\u2019re things you, the user, have wanted for a long time. Rocket not only gives you the features that are missing from Instagram, but it also gives you full control over the app.\n\nIf you\u2019re an Instagram user looking to enhance your abilities within the app and obtain features that no stock user is ever going to get, Rocket for Instagram could be your new best friend.\n\nAmazing Features:\n\n- Browse home feed in grid layout.\n- Show following status in Profile.\n- Download posts from your feed.\n- Repost any post from your feed.\n- Long press on posts to zoom.\n- Copy post captions from your feed.\n- Download all Stories on Instagram.\n- Save videos from IGTV.\n- View Stories without notifying others.\n- Mute and unmute Stories.\n- Disable Auto-Advance in Stories.\n- Hide Stories from your feed.\n- Play in high quality on Mobile Data.\n- Long press on profile photo to zoom.\n- Disable read receipts in DM.\n- Disable Screenshot notifications in DM.\n- Disable Read Receipts in DM.",
-			"iconURL": "https://i.imgur.com/Nf6m0w5.png",
-			"tintColor": "c7309b",
-			"size": 112171086,
-			"screenshotURLs": [
-				"https://i.imgur.com/SZcgiMZ.png",
-				"https://i.imgur.com/Xukz00u.png",
-				"https://i.imgur.com/JkU9XpS.png",
-				"https://i.imgur.com/H6FuvcZ.png"
-			]
-		},
-		{
-			"name": "Reddit++",
-			"bundleIdentifier": "syto203.reddit.pp",
-			"developerName": "syto203",
-			"subtitle": "Rocket for Instagram",
-			"version": "145.0",
-			"versionDate": "2020-12-21",
-			"versionDescription": "Bug fixes and improvements.",
-			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Reddit%2B%2B.ipa",
-			"localizedDescription": "The Reddit you know and love but with all the premium features you have always wanted.\n\n\u2022 Absolutely no ads.\n\u2022 Access to r/lounge\n\u2022 And more!",
-			"iconURL": "https://i.imgur.com/1YJO4aW.png",
-			"tintColor": "ff4500",
-			"size": 112171086,
-			"screenshotURLs": [
-				"https://i.imgur.com/KWMTEJj.png",
-				"https://i.imgur.com/qHnOKuC.png",
-				"https://i.imgur.com/zg5knuy.png",
-				"https://i.imgur.com/XVC7rfu.png",
-				"https://i.imgur.com/H4xxQdt.png",
-				"https://i.imgur.com/4b7Tm9j.png
-			]
-		},
-		{
-			"name": "appdb",
-			"bundleIdentifier": "it.ned.appdb-ios",
-			"developerName": "n3d1117",
-			"subtitle": "A fully-featured iOS client for appdb.to written in Swift 5",
-			"version": "1.1.1",
-			"versionDate": "2021-06-11",
-			"versionDescription": "Custom developer identities are now detected correctly\nIntegrated new iOS 13 context menus, homescreen shortcuts & haptic feedbacks\nAdded pull to refresh to Featured tab\nAdded French translation (thanks to DzMohaipa)\nAdded Indonesian translation (thanks to Am1nCmd)\nAdded Javanese (Indonesia) translation (thanks to EskaseptianTeam)\nFixed bug where links were not clickable in News\nRemoved the (deprecated) option to link device via email\nVarious other minor fixes and additions",
-			"downloadURL": "https://github.com/n3d1117/appdb/releases/download/v1.1.1/appdb_1.1.1.ipa",
-			"localizedDescription": "appdb is the successor of our old website named appaddict. appdb was formed when ex staff were concerned for the security of the users of our old website. appdb was setup using a new perspective of simplicity yet effectiveness. This formed our app-less approach and simple interface to install apps.",
-			"iconURL": "https://static.appdb.to/images/cydia-1900000538-icon.png",
-			"tintColor": "008CE3",
-			"size": 23554600,
-			"screenshotURLs": [
-				"https://cdn.discordapp.com/attachments/558842854462717954/680945917465067599/appdb1.png",
-				"https://cdn.discordapp.com/attachments/558842854462717954/680945918417305613/appdb2.png",
-                "https://cdn.discordapp.com/attachments/558842854462717954/680945921420427266/appdb3.png",
-				"https://cdn.discordapp.com/attachments/558842854462717954/680945924255907860/appdb4.png"
-			]
-		},
-		{
-			"name": "AppCake",
-			"bundleIdentifier": "com.iphonecake.appcakej.L79YCPZZ88",
-			"developerName": "AppCake Team",
-			"subtitle": "Free AppStore-Apps and Tweaked-Apps.",
-			"version": "7.1.7",
-			"versionDate": "2021-06-11",
-			"versionDescription": "Initial Altstore Release",
-			"downloadURL": "https://github.com/TaminoPalm/Altstore-Appcake/blob/main/appcake.ipa?raw=true",
-			"localizedDescription": "Free download of cracked iOS & Mac OSX Apps, works with or without Jailbreak!. Download AppCake for iOS.",
-			"iconURL": "https://raw.githubusercontent.com/TaminoPalm/Altstore-Appcake/main/C683F3B3-A20C-4BC7-A3A3-1F6D58331D16.png",
-			"tintColor": "0BE5FF",
-			"size": 31400000,
-			"screenshotURLs": [
-				"https://raw.githubusercontent.com/TaminoPalm/Altstore-Appcake/main/8A75D093-B9FF-4D23-87A2-7CF00EF0D548.jpeg",
-				"https://raw.githubusercontent.com/TaminoPalm/Altstore-Appcake/main/0F386B67-2E8D-44C9-8948-15B1A464932A.jpeg",
-                "https://raw.githubusercontent.com/TaminoPalm/Altstore-Appcake/main/2FE5DD6D-6C40-4200-9501-CBEC01B3CB2A.jpeg"
-			]
-		},
-		{
-			"name": "unc0ver",
-			"bundleIdentifier": "science.xnu.undecimus",
-			"developerName": "Pwn20wnd",
-			"subtitle": "The most advanced jailbreak tool.",
-			"version": "6.2.0",
-			"versionDate": "2021-07-17",
-			"versionDescription": "Major stability and reliability improvements to iOS 14 support",
-			"downloadURL": "https://unc0ver.dev/downloads/6.2.0/15e18e455ca3971433261443a42355ee883a2092/unc0ver_Release_6.2.0.ipa",
-			"localizedDescription": "unc0ver is a jailbreak, which means that you can have the freedom to do whatever you would like to do to your iOS device. Allowing you to change what you want and operate within your purview, unc0ver unlocks the true power of your iDevice.\n\nCompatible:\nunc0ver supports iOS 11.0 through to iOS 13.3 (Excluding 12.3-12.3.2).\n\nStable:\nUtilizing the latest stable APT and Mobile Substrate, stability is guaranteed.",
-			"iconURL": "https://raw.githubusercontent.com/TaminoPalm/Altstore-Unc0ver/main/1C284488-34AB-4A16-B6A1-2C0B169C9E01.jpeg",
-			"tintColor": "8c8c8c",
-			"size": 857669,
-			"screenshotURLs": [
-				"https://raw.githubusercontent.com/TaminoPalm/Altstore-SharkWave-/main/71B99082-9944-4D18-8018-1674B2EBB3F7.jpeg",
-				"https://raw.githubusercontent.com/TaminoPalm/Altstore-Unc0ver/main/897A6814-2B57-424F-B693-2CA87CCACA2E.jpeg",
-				"https://raw.githubusercontent.com/TaminoPalm/Altstore-SharkWave-/main/07C77047-6BE9-4B9E-A0FD-426BEADA764A.jpeg"
-			]
-		},
-		{
-			"name": "Taurine",
-			"bundleIdentifier": "com.odysseyteam.taurine",
-			"developerName": "Odyssey Team",
-			"subtitle": "Time to get amped.",
-			"version": "1.0.6",
-			"versionDate": "2021-06-11",
-			"versionDescription": "- Applies a fix for amfid panics so that it should happen less often\n- BSODs dump info about the BSOD to /.last_bsod\n- Creating /.verbose_bsod will show a verbose BSOD instead\n- SpringBoard alert when tweaks are disabled (either in case of a BSOD or when they're disabled manually)",
-			"downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.6/Taurine-1.0.6.ipa",
-			"localizedDescription": "Taurine is an iOS 14.0-14.3 jailbreak, utilising Procursus and Libhooker.",
-			"iconURL": "https://taurine.app/assets/images/icon.png",
-			"tintColor": "F65656",
-			"size": 31400000,
-			"beta": false,
-			"screenshotURLs": [
-				"https://taurine.app/assets/images/ss-1.png",
-				"https://taurine.app/assets/images/ss-2.png",
-				"https://taurine.app/assets/images/ss-3.png"
-			]
-		},
-		{
-			"name": "Odyssey",
-			"bundleIdentifier": "org.coolstar.odyssey",
-			"developerName": "Odyssey Team",
-			"subtitle": "A new jailbreak for a new era.",
-			"version": "1.3.3",
-			"versionDate": "2021-04-15",
-			"versionDescription": "- Fixes Filza not launching\n- Fixes binaries signed with old ldid not spawning",
-			"downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.3.3/Odyssey-1.3.3.ipa",
-			"localizedDescription": "Supporting iOS Versions: 13.0 - 13.7.\nOdyssey is the first jailbreak to be written almost entirely in Swift. Completely open source and welcomes community contributions and pull requests, as a tribute to the dearly departed s0uthwes and his continued optimism and faith in the project. Comes with the open source Procursus bootstrap, designed from the ground up with openness and compatiblity in mind. Along with a new tweak injection platform, libhooker.",
-			"iconURL": "https://theodyssey.dev/assets/images/icon.png",
-			"tintColor": "D287F4",
-			"size": 21600000,
-			"beta": false,
-			"screenshotURLs": [
-				"https://theodyssey.dev/assets/images/ss-1.png",
-				"https://theodyssey.dev/assets/images/ss-2.png",
-				"https://theodyssey.dev/assets/images/ss-3.png"
-			]
-		},
-		{
-			"name": "Chimera 12.2 - 12.5.3",
-			"bundleIdentifier": "com.electrateam.chimera",
-			"developerName": "Electra Team",
-			"subtitle": "Your device, your way.",
-			"version": "1.6.2",
-			"versionDate": "2021-04-15",
-			"versionDescription": "Initial Altstore Release",
-			"downloadURL": "https://github.com/coolstar/electra-ipas/raw/master/chimera/1.6.2-12.2-12.5.ipa",
-			"localizedDescription": "Chimera is the first true iOS 12 jailbreak to not only feature a CoreTrust bypass so that binaries don't need to be resigned, but to also support A12 devices, including iPhone Xs, iPhone Xr, and the newest iPads. Chimera doesn't tamper with user files, making it safer than alternatives. We've rewritten Chimera from the ground up to ensure that there's no battery drain, freezing, or crashing. There's simply nothing else like it, and we can't wait for you to see for yourself. Chimera comes with a modern package manager, Sileo, featuring a UI made to fit iOS, and packed full of features and speed enhancements to make installing packages a breeze. Rather than sticking to tools built decades ago, it ships with modern system tools designed to take advantage wherever possible.",
-			"iconURL": "https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraIcon.png",
-			"tintColor": "D287F4",
-			"size": 21600000,
-			"beta": false,
-			"screenshotURLs": [
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraScreenshot1.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraScreenshot2.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraScreenshot3.png"
-			]
-		},
-		{
-			"name": "Chimera 12.0 - 12.5",
-			"bundleIdentifier": "com.electrateam.chimera",
-			"developerName": "Electra Team",
-			"subtitle": "Your device, your way.",
-			"version": "1.6.2",
-			"versionDate": "2021-04-15",
-			"versionDescription": "Initial Altstore Release",
-			"downloadURL": "https://github.com/coolstar/electra-ipas/raw/master/chimera/1.6.2-12.0-12.5.ipa",
-			"localizedDescription": "Chimera is the first true iOS 12 jailbreak to not only feature a CoreTrust bypass so that binaries don't need to be resigned, but to also support A12 devices, including iPhone Xs, iPhone Xr, and the newest iPads. Chimera doesn't tamper with user files, making it safer than alternatives. We've rewritten Chimera from the ground up to ensure that there's no battery drain, freezing, or crashing. There's simply nothing else like it, and we can't wait for you to see for yourself. Chimera comes with a modern package manager, Sileo, featuring a UI made to fit iOS, and packed full of features and speed enhancements to make installing packages a breeze. Rather than sticking to tools built decades ago, it ships with modern system tools designed to take advantage wherever possible.",
-			"iconURL": "https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraIcon.png",
-			"tintColor": "D287F4",
-			"size": 21600000,
-			"beta": false,
-			"screenshotURLs": [
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraScreenshot1.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraScreenshot2.png",
-				"https://raw.githubusercontent.com/PalmTamino/Altstore-AppArchive/main/ChimeraScreenshot3.png"
-			]
-		},
-		{
-			"name": "Filza Escaped",
-			"bundleIdentifier": "com.dry05.filzaescaped11-12",
-			"developerName": "Bas vt",
-			"subtitle": "iOS 12-13 file manager for jailed iPhones.",
-			"version": "2.3.2",
-			"versionDate": "2020-06-23",
-			"versionDescription": "Small fixes",
-			"downloadURL": "https://github.com/QuarkSources/quarksources.github.io/releases/download/v1.0/Filza-Escaped.ipa",
-			"localizedDescription": "It's just normal Filza but for jailed iPhones running iOS 12.1.3 - 13.4.1. This is possible using the Psychic Paper exploit to gain greater file access on stock iOS. Since the exploit used here was patched in iOS 13.5, do not expect many further updates to this application and it will likely never work the same on iOS 13.5 and up.",
-			"iconURL": "https://i.imgur.com/VsEGbQN.png",
-			"tintColor": "d5ad0b",
-			"size": 21600000,
-			"beta": false,
-			"screenshotURLs": [
-				"https://i.imgur.com/KBkDKkN.png"
-			]
-		},
-		{
-			"name": "Sileo Demo (Outdated)",
-			"bundleIdentifier": "org.coolstar.SileoDemo",
-			"developerName": "Sileo Team",
-			"subtitle": "Unpack the full potential of your iDevice.",
-			"version": "1.2.6",
-			"versionDate": "2018-09-07",
-			"versionDescription": "The only ipa i found",
-			"downloadURL": "https://github.com/PalmTamino/Altstore-AppArchive/blob/main/Sileo%20Demo%201.2.6b2.ipa?raw=true",
-			"localizedDescription": "Sileo is a fast, beautiful, powerful and efficient APT Package Manager designed for jailbroken devices running iOS 11 and up with focus on being up to date and most importantly reliable.",
-			"iconURL": "https://pbs.twimg.com/profile_images/1019627376857280512/laMqxYhl_400x400.jpg",
-			"tintColor": "1AC3BE",
-			"size": 7792641,
-			"screenshotURLs": [
-				"https://pbs.twimg.com/media/ED-2Z-XUEAIYfJB?format=png&name=4096x4096",
-				"https://pbs.twimg.com/media/ED-2Z_YUUAAVQma?format=png&name=4096x4096",
-				"https://pbs.twimg.com/media/ED-2aAmUEAAa6wf?format=png&name=4096x4096",
-				"https://pbs.twimg.com/media/ED-2aCUUcAEsFzf?format=png&name=4096x4096"
-			]
-		}
-	],
-	"news": [
-		{
-			"title": "unc0ver 6.2.0 is now out!",
-			"identifier": "undecimus",
-			"caption": "The most advanced jailbreak tool. iOS 11 to 14.5",
-			"tintColor": "8c8c8c",
-			"imageURL": "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/background.jpg",
-			"appID": "science.xnu.undecimus",
-			"date": "2021-07-17",
-			"notify": false
-		},
-		{
-			"title": "What's New",
-			"identifier": "whatsnew",
-			"caption": "- Added Jailbreaks and updated links!",
-			"tintColor": "018084",
-			"date": "2021-08-14",
-			"notify": false
-		}
-	],
-	"userInfo": {}
+  "name": "unc0ver",
+  "identifier": "science.xnu.undecimus",
+  "apps": [
+    {
+      "name": "unc0ver",
+      "bundleIdentifier": "science.xnu.undecimus",
+      "developerName": "pwn20wnd",
+      "subtitle": "Das fortschrittlichste Jailbreak-Tool. iOS 11.0 - 14.3",
+      "version": "6.2.0",
+      "versionDate": "2021-07-17T12:00:00-00:00",
+      "versionDescription": "Major stability and reliability improvements for iOS 14",
+      "downloadURL": "https://unc0ver.dev/downloads/6.2.0/15e18e455ca3971433261443a42355ee883a2092/unc0ver_Release_6.2.0.ipa",
+      "localizedDescription": "unc0ver is a jailbreak, which means that you can have the freedom to do whatever you would like to do to your iOS device. Allowing you to change what you want and operate within your purview, unc0ver unlocks the true power of your iDevice.\n\nCompatible:\nunc0ver supports iOS 11.0 through to iOS 13.3 (Excluding 12.3-12.3.2).\n\nStable:\nUtilizing the latest stable APT and Mobile Substrate, stability is guaranteed.",
+      "iconURL": "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/unc0vericon.jpg",
+      "tintColor": "#8c8c8c",
+      "size": 345885912,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/TaminoPalm/Altstore-SharkWave-/main/71B99082-9944-4D18-8018-1674B2EBB3F7.jpeg?token=AIVMUENUJCRPF5RGZJEK4UDBCUREQ",
+        
+        "https://raw.githubusercontent.com/TaminoPalm/Altstore-SharkWave-/main/897A6814-2B57-424F-B693-2CA87CCACA2E.jpeg?token=AIVMUEPKS46KOBMURWSR2DDBCURRG",
+
+        "https://raw.githubusercontent.com/TaminoPalm/Altstore-SharkWave-/main/07C77047-6BE9-4B9E-A0FD-426BEADA764A.jpeg?token=AIVMUEM2VPVLAOVAEPB2ZLDBCURY4"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "unc0ver",
+      "identifier": "unc0ver-news",
+      "caption": "The most advanced jailbreak tool",
+      "tintColor": "#8c8c8c",
+      "imageURL": "https://raw.githubusercontent.com/starrys121/unc0veraltsource/master/background.jpg",
+      "appID": "science.xnu.undecimus",
+      "date": "2021-07-17",
+      "notify": true
+    }
+  ],
+  "userInfo": {
+
+  }
 }
